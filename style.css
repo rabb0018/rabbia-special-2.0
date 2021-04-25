@@ -1,0 +1,26 @@
+/* CSS Document
+
+Theme Name: Rabbia Special
+Template: onepress
+Author: Rabbia S
+Version: 1.0.0
+Discription: Stylish Child Theme based on OnePress
+*/
+
+
+#podcastcontainer {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: auto;
+    grid-gap: 1rem;
+}
+
+#filtrering {
+    margin: auto;
+    text-align: center;
+}
+
+#site-navigation {
+    text-align: left;
+}
