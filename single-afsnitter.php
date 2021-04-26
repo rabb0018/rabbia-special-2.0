@@ -12,7 +12,7 @@ get_header(); ?>
 
 
         <section id="afsnit">
-            <template>
+
                 <article>
                     <div>
                         <img src="" alt="" class="afsnit_billede">
@@ -32,7 +32,7 @@ get_header(); ?>
 
                     </div>
                 </article>
-            </template>
+
         </section>
 
 
@@ -58,12 +58,14 @@ get_header(); ?>
         }
 
         function visAfsnit() {
-            console.log("visAfsnit");
+          console.log("visAfsnit");
 
-          /*  document.querySelector(".afsnit_billede").src = afsnit.billede.guid;*/
+            document.querySelector(".afsnit_billede").src = afsnit.billede.guid;
 
-            document.querySelector("h2").textContent = afsnit.title.rendered;
+            document.querySelector("h2").innerHTML = afsnit.title.rendered;
+
             document.querySelector("h3").textContent = afsnit.afsnit_navn;
+
             document.querySelector(".afsnit_nr").textContent = afsnit.afsnit_nr;
             document.querySelector(".varighed").textContent = afsnit.varighed;
             document.querySelector(".dato").textContent = afsnit.dato;
