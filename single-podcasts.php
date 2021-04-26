@@ -29,8 +29,8 @@ get_header(); ?>
                         <img src="" alt="">
                     </div>
                     <div class="afsnitter_indhold">
-                        <h2></h2>
                         <h3></h3>
+                        <h4></h4>
                         <p class="afsnit_nr"></p>
                         <!--<p class="varighed"></p>
                         <p class="dato"></p>-->
@@ -92,9 +92,9 @@ get_header(); ?>
                     let klon = temp.cloneNode(true).content;
 
                     klon.querySelector("img").src = afsnitter.billede.guid;
-                    klon.querySelector("h2").innerHTML = afsnitter.title.rendered;
+                    klon.querySelector("h3").innerHTML = afsnitter.title.rendered;
 
-                    klon.querySelector("h3").innerHTML = afsnitter.afsnit_navn;
+                    klon.querySelector("h4").innerHTML = afsnitter.afsnit_navn;
                     klon.querySelector(".afsnit_nr").innerHTML = afsnitter.afsnit_nr;
                     /*klon.querySelector(".varighed").innerHTML = afsnitter.varighed;
                     klon.querySelector(".dato").innerHTML = afsnitter.dato;*/

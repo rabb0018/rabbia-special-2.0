@@ -3,6 +3,14 @@ h2:before {
     content: none;
 }
 
+main {
+    max-width: 1200px;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
 #podcastcontainer {
     display: grid;
     max-width: 1050px;
@@ -18,13 +26,20 @@ img {
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     margin: 10px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 h3 {
+    font-size: 1.4rem;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h4 {
     font-size: 1.2rem;
     margin: 10px;
     margin-top: 0;
@@ -36,6 +51,7 @@ p {
     margin: 10px;
     margin-top: 0;
     margin-bottom: 0;
+    color: black;
 }
 
 
@@ -80,13 +96,14 @@ a {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     margin: auto;
     grid-gap: 1rem;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .afsnitter_section {
     display: grid;
     grid-template-columns: 1fr 2fr;
-   /* border: 2px solid black;*/
+    border: 2px solid black;
 
 }
 
@@ -96,4 +113,19 @@ a {
 
 afsnitter_indhold {
     grid-column: 2/3;
+}
+
+.filter {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-family: sofia pro, sans-serif;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button:hover {
+    text-decoration: underline;
 }
