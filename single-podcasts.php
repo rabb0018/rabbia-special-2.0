@@ -11,7 +11,9 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
 
 
-       <h1 class="entry-title">Podcasts</h1>
+
+
+        <h1 class="entry-title">Podcasts</h1>
         <article>
             <div class="podcast_showcase">
                 <div class="podcast_billede">
@@ -19,16 +21,22 @@ get_header(); ?>
                 </div>
                 <div class="podcast_overskrift">
                     <h2></h2>
+                    <br>
+                    <h3>Beskrivelse:</h3>
+                    <p class="pod_beskrivelse"></p>
+                    <br>
+                    <p class="vaerter"></p>
+
                 </div>
             </div>
         </article>
-
+        <h3 class="streaminglinks">Du kan også lytte her:</h3>
 
         <section id="afsnitter">
             <template>
                 <article class="afsnitter_section">
                     <div class="afsnitter_billede">
-                        <img src="" alt="">
+                        <img src="" alt="" class="episode_filter">
                     </div>
                     <div class="afsnitter_indhold">
                         <h3></h3>
@@ -81,6 +89,8 @@ get_header(); ?>
             document.querySelector("h2").innerHTML = podcast.title.rendered;
             console.log("podcast.billede.guid :", podcast.billede.guid);
             document.querySelector(".podcast_billede img").src = podcast.billede.guid;
+            document.querySelector(".pod_beskrivelse").innerHTML = podcast.podcast_beskrivelse;
+            document.querySelector(".vaerter").innerHTML = "Værter: " + podcast.vaerter;
         }
 
 
