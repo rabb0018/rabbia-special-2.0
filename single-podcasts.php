@@ -10,6 +10,8 @@ get_header(); ?>
 <div id="content" class="site-content">
     <main id="main" class="site-main" role="main">
 
+
+       <h1 class="entry-title">Podcasts</h1>
         <article>
             <div class="podcast_showcase">
                 <div class="podcast_billede">

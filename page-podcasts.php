@@ -30,7 +30,7 @@ do_action( 'onepress_page_before_content' );
         <template>
             <article>
                 <img src="" alt="">
-                <h2></h2>
+                <h2 class="pod-title"></h2>
             </article>
         </template>
 
