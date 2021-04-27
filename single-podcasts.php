@@ -55,6 +55,14 @@ get_header(); ?>
         </section>
 
 
+        <section id="podcastcontainer">
+            <template>
+                <article>
+                    <img src="" alt="">
+                    <h2 class="pod-title"></h2>
+                </article>
+            </template>
+        </section>
 
     </main><!-- #main -->
 
@@ -69,6 +77,8 @@ get_header(); ?>
         const afsnitterUrl = "https://rys.dk/kea/09_cms/radio_loud/wp-json/wp/v2/afsnitter?per_page=100";
 
 
+        const podcastsUrl = "https://rys.dk/kea/09_cms/radio_loud/wp-json/wp/v2/podcasts?per_page=100";
+
         const container = document.querySelector("#afsnitter");
 
         async function getJson() {
@@ -80,13 +90,20 @@ get_header(); ?>
             console.log("afsnitter: ", afsnitter);
 
 
-            visPodcasts();
+            const data3 = await fetch(podcastsUrl);
+            podcasts = await data3.json();
+            console.log("podcasts");
+
+
+
+            visPodcast();
             visAfsnitter();
+            visPodcasts();
 
         }
 
-        function visPodcasts() {
-            console.log("visPodcasts");
+        function visPodcast() {
+            console.log("visPodcast");
             console.log("podcast.title.rendered :", podcast.title.rendered);
             document.querySelector("h2").innerHTML = podcast.title.rendered;
             console.log("podcast.billede.guid :", podcast.billede.guid);
@@ -123,6 +140,13 @@ get_header(); ?>
 
                 }
             })
+        }
+
+
+
+        function visPodcasts() {
+            console.log("visPodcasts");
+
         }
 
         getJson();
