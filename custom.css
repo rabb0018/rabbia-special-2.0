@@ -11,12 +11,15 @@ main {
 
 }
 
-.page-header
+#masthead {
+    background: #f5f1f0;
+
+}
 
 
 #hero > div.container > div > a:nth-child(1) {
     margin-top: -270px;
-    transform: rotate(-15deg);
+    transform: rotate(0deg);
     font-size: 2rem;
     margin-left: 55px;
 }
@@ -25,22 +28,22 @@ main {
 #hero > div.container > div > a:nth-child(2) {
     margin-left: 470px;
     margin-top: -15px;
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
     font-size: 2rem;
 }
 
 
 
 #footer-widgets {
-    background: white;
+    background: #f5f1f0;
 }
 
 
 
-/*#content  {
+#content  {
     background-image:url(img/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg);
     background-size: cover;
-}*/
+}
 
 #podcastcontainer {
     display: grid;
@@ -130,6 +133,7 @@ a {
 
 .afsnitter_indhold {
     border: 2px solid black;
+        background: #f5f1f0;
 }
 
 #filtrering {
@@ -159,6 +163,7 @@ a {
     grid-column: 2/3;
     /*background: #d9d3d3;*/
      border: 2px solid black;
+        background: #f5f1f0;
 }
 
 
@@ -222,6 +227,7 @@ button:hover {
 .enkelt_afsnit_indhold {
     grid-column: 2/3;
     border: 2px solid black;
+        background: #f5f1f0;
 }
 
 #afsnit > article > div > div.enkelt_afsnit_indhold > button.btn.btn-danger.btn-lg.loud_afspiller {
@@ -229,10 +235,19 @@ button:hover {
     margin: 10px;
 }
 
+/*article.afsnitter_section:nth-child(2) > div:nth-child(2) > button:nth-child(5) {
+      margin-top 20px;
+    margin-left: 155px;
+}
 
+.btn .loud_afspiller {
+    margin-top 20px;
+    margin-left: 155px;
+}*/
 
 .streaminglinks {
     text-align: center;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
 }

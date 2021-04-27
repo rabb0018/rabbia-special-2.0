@@ -22,33 +22,22 @@ get_header(); ?>
                     <div class="enkelt_afsnit_indhold">
                         <h2></h2>
                         <h3></h3>
-
-
                         <button class="btn btn-danger btn-lg loud_afspiller">Afspil</button>
-
-
                         <br>
                         <h3>Beskrivelse</h3>
                         <p class="beskrivelsestekst"></p>
-
                         <p class="vaerter"></p>
                         <p class="medvirkende"></p>
                         <p class="redaktoer"></p>
-
                         <br>
                         <p class="afsnit_nr"></p>
                         <p class="varighed"></p>
                         <p class="dato"></p>
-
-
-
                     </div>
                 </div>
             </article>
-            <h3 class="streaminglinks">Du kan også lytte her:</h3>
+            <h3 class="streaminglinks">Du kan også lytte her: Spotify - Apple - Podimo - Google - Streaker</h3>
         </section>
-
-
 
     </main><!-- #main -->
 

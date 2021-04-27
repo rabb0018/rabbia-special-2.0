@@ -30,7 +30,7 @@ get_header(); ?>
                 </div>
             </div>
         </article>
-        <h3 class="streaminglinks">Du kan også lytte her:</h3>
+        <h3 class="streaminglinks">Du kan også lytte her: Spotify - Apple - Podimo - Google - Streaker</h3>
 
         <section id="afsnitter">
             <template>
@@ -45,6 +45,8 @@ get_header(); ?>
                         <!--<p class="varighed"></p>
                         <p class="dato"></p>-->
                         <a href="">Læs mere</a>
+
+                        <button class="btn btn-danger btn-lg loud_afspiller">Afspil</button>
 
                     </div>
                 </article>
