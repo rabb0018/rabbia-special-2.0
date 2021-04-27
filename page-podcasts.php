@@ -39,7 +39,7 @@ do_action( 'onepress_page_before_content' );
 
 
                 <section id="primary" class="content-area"></section>
-                <nav id="filtrering"><button data-podcasts="alle" class="filter">Alle</button></nav>
+                <nav id="filtrering"><button data-podcasts="alle" class="filter valgt">Alle</button></nav>
 
                 <section id="podcastcontainer"></section>
 
@@ -80,9 +80,16 @@ do_action( 'onepress_page_before_content' );
                 document.querySelectorAll("#filtrering button").forEach(elm => {
                     elm.addEventListener("click", filtrering);
                 })
+
+
             }
 
             function filtrering() {
+
+                document.querySelector(".valgt").classList.remove("valgt");
+
+                this.classList.add("valgt");
+
                 filterPodcast = this.dataset.podcast;
                 console.log(filterPodcast);
 
