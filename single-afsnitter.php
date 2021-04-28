@@ -56,7 +56,7 @@ get_header(); ?>
         <!--Grid til flere afsnit-->
 
 
-        <template>
+        <template id="afsnitter_template">
             <article class="afsnitter_section">
                 <div class="afsnitter_billede">
                     <img src="" alt="" class="episode_filter">
@@ -96,10 +96,15 @@ get_header(); ?>
 
     <script>
         let aktuelafsnit;
+        let aktuelpodcast = <?php echo get_the_ID() ?>;
 
         const afsnitUrl = "https://rys.dk/kea/09_cms/radio_loud/wp-json/wp/v2/afsnitter/" + <?php echo get_the_ID() ?>;
 
         const container = document.querySelector("#afsnit");
+
+
+        const afsnitterUrl = "https://rys.dk/kea/09_cms/radio_loud/wp-json/wp/v2/afsnitter?per_page=100";
+        const podcastsUrl = "https://rys.dk/kea/09_cms/radio_loud/wp-json/wp/v2/podcasts?per_page=100";
 
         async function getJson() {
             const data = await fetch(afsnitUrl);
@@ -107,7 +112,18 @@ get_header(); ?>
             console.log("afsnit: ", afsnit);
 
 
+            const data2 = await fetch(afsnitterUrl);
+            afsnitter = await data2.json();
+            console.log("afsnitter: ", afsnitter);
+
+            const data3 = await fetch(podcastsUrl);
+            podcasts = await data3.json();
+            console.log("podcasts");
+
+
             visAfsnit();
+            visAfsnitter();
+            visPodcasts();
 
         }
 
@@ -132,6 +148,67 @@ get_header(); ?>
 
 
         }
+
+
+        function visAfsnitter() {
+            console.log("visAfsnitter");
+
+            /*let temp = document.querySelector("#afsnitter_template");
+            let container = document.querySelector("#afsnitter");
+
+            afsnitter.forEach(afsnitter => {
+                console.log("loop id :", aktuelpodcast);
+                if (afsnitter.horer_til_podcast == aktuelpodcast) {
+                    console.log("loop kører id :", aktuelpodcast);
+                    let klon = temp.cloneNode(true).content;
+
+                    klon.querySelector("img").src = afsnitter.billede.guid;
+                    klon.querySelector("h3").innerHTML = afsnitter.title.rendered;
+
+                    klon.querySelector("h4").innerHTML = afsnitter.afsnit_navn;
+                    klon.querySelector(".afsnit_nr").innerHTML = afsnitter.afsnit_nr;
+
+
+                    klon.querySelector("article").addEventListener("click", () => {
+                        location.href = afsnitter.link;
+                    })
+
+                    klon.querySelector("a").href = afsnitter.link;
+                    console.log("afsnitter", afsnitter.link);
+
+                    container.appendChild(klon);
+
+                }
+            })*/
+        }
+
+
+
+
+        function visPodcasts() {
+            console.log("visPodcasts");
+            let temp = document.querySelector("#podcast_template");
+            let container = document.querySelector("#podcastcontainer");
+            /*container.innerHTML = "";*/
+            podcasts.forEach(podcast => {
+                /*  if (filterPodcast == "alle" || podcast.categories.includes(parseInt(filterPodcast))) {*/
+
+                let klon = temp.cloneNode(true).content;
+                klon.querySelector("img").src = podcast.billede.guid;
+                klon.querySelector("h2").innerHTML = podcast.title.rendered;
+
+                klon.querySelector("article").addEventListener("click", () => {
+                    location.href = podcast.link;
+
+
+                })
+                container.appendChild(klon);
+                /*}*/
+            })
+
+
+        }
+
 
         getJson();
 
