@@ -6,16 +6,12 @@ h2:before {
 main {
     max-width: 1200px;
     margin: auto;
-    /*margin-left: 20px;
-    margin-right: 20px;*/
     margin-bottom: 100px;
-
 }
 
 #masthead {
     background: #f5f1f0;
     padding-top: 10px;
-
 }
 
 .onepress-menu a {
@@ -52,8 +48,6 @@ main {
     background: #f5f1f0;
 }
 
-
-
 #content {
     background-image: url(img/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg);
     background-size: cover;
@@ -63,7 +57,6 @@ main {
 #content img {
       width: 100%;
 }
-
 
 #podcastcontainer {
     display: grid;
@@ -79,7 +72,6 @@ img {
     /* height: 100%;*/
     border: 2px solid black;
 }
-
 
 .custom-logo {
     border: none;
@@ -120,8 +112,6 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 h3 {
     font-size: 1.8rem;
     margin: 10px;
@@ -159,7 +149,6 @@ a {
     margin-left: 20px;
 }
 
-
 .podcast_h2 {
     margin: 0;
     margin-left: 20px;
@@ -177,13 +166,11 @@ a {
     margin: 0;
     margin-left: 10px;
     font-size: 1.5rem;
-
 }
 
 .podcast_h4 {
     margin: 0;
     margin-left: 10px;
-
 }
 
 .podcast_tekst {
@@ -192,7 +179,6 @@ a {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 
 .afsnit_h2 {
     margin: 0;
@@ -232,9 +218,6 @@ a {
     margin-left: 20px;
 }
 
-
-
-
 .afsnitter_indhold {
     border: 2px solid black;
     background: #f5f1f0;
@@ -270,10 +253,6 @@ a {
     background: #f5f1f0;
 }
 
-
-
-
-
 #afsnitter {
     display: grid;
     max-width: 1200px;
@@ -287,8 +266,6 @@ a {
 .afsnitter_section {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    /*    border: 2px solid black;*/
-
 }
 
 
@@ -300,18 +277,15 @@ afsnitter_indhold {
     grid-column: 2/3;
 }
 
-
 .grid_for_info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 20px;
-
 }
 
 .column_1 {
     grid-template-columns: 1/2;
 }
-
 
 .column_2 {
     grid-template-columns: 2/3;
@@ -330,11 +304,9 @@ afsnitter_indhold {
     margin-right: 20px;
 }
 
-
 .episode_filter {
     filter: grayscale(50%);
 }
-
 
 .filter {
     text-decoration: none;
@@ -359,7 +331,6 @@ button:hover {
     outline: none;
 }
 
-
 .afsnit_grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -381,18 +352,6 @@ button:hover {
     margin: 10px;
     margin-left: 20px;
 }
-
-
-
-/*article.afsnitter_section:nth-child(2) > div:nth-child(2) > button:nth-child(5) {
-      margin-top 20px;
-    margin-left: 155px;
-}
-
-.btn .loud_afspiller {
-    margin-top 20px;
-    margin-left: 155px;
-}*/
 
 .streaminglinks {
     text-align: center;
@@ -417,19 +376,14 @@ button:hover {
     background: #a0092d;
 }
 
-
-
-
 .page-header.page--cover {
     padding-top: 230px;
     background-position: center 42%;
 }
 
-
 #menu-item-254 > a > img {
     width: 25px;
 }
-
 
 #ub-tabbed-content-6c08bce4-c862-4005-87f4-05568b6e30bb .wp-block-ub-tabbed-content-tab-title-wrap.active,
 #ub-tabbed-content-6c08bce4-c862-4005-87f4-05568b6e30bb .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active,
@@ -439,14 +393,9 @@ button:hover {
     border-color: #d80e3e;
 }
 
-
 #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8 .wp-block-ub-tabbed-content-tab-title-wrap {
     border-color: #d80e3e;
 }
-
-/*#ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8-tab-0 > div {
-    font-size: 1rem;
-}*/
 
 body,
 button,
@@ -474,8 +423,6 @@ textarea {
     margin-bottom: 10px;
 }
 
-
-
 #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8-panel-5 > div {
     margin-bottom: 10px;
 }
@@ -484,24 +431,17 @@ textarea {
     margin-bottom: 10px;
 }
 
-
 #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8-panel-3 > div {
     margin-bottom: 10px;
-
 }
-
 
 #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8-panel-2 > div {
     margin-bottom: 10px;
 }
 
-
 #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8-panel-0 > div {
     margin-bottom: 10px;
 }
-
-
-
 
 .wp-block-ub-tabbed-content-tabs-content {
     margin-right: 100px;
@@ -522,7 +462,6 @@ textarea {
     font-size: 20px;
 }
 
-
 h5 {
     font-size: 19px;
 }
@@ -534,3 +473,6 @@ h5 {
 .site-footer .footer-connect {
     padding: 2.375rem 0;
 }
+
+
+max
