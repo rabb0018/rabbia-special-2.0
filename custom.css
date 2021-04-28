@@ -335,10 +335,11 @@ afsnitter_indhold {
     text-transform: uppercase;
     color: #000;
     font-family: sofia pro, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.266rem;
     border: none;
     cursor: pointer;
     background-color: transparent;
+    letter-spacing: 1px;
 }
 
 button:hover {
@@ -372,7 +373,7 @@ button:hover {
 #afsnit > article > div > div.enkelt_afsnit_indhold > button.btn.btn-danger.btn-lg.loud_afspiller {
     font-size: 0.8rem;
     margin: 10px;
-     margin-left: 20px;
+    margin-left: 20px;
 }
 
 
