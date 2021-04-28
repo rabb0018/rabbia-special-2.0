@@ -81,7 +81,7 @@ img {
 
 #primary {
     padding-bottom: 40px;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .site-branding .has-logo-img {
@@ -150,6 +150,7 @@ a {
     margin: 10px;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 20px;
 }
 
 
@@ -189,15 +190,15 @@ a {
 
 .afsnit_h2 {
     margin: 0;
-    margin-left: 10px;
+    margin-left: 20px;
     font-family: 'Roboto', sans-serif;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
 .afsnit_h3 {
     margin: 0;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
