@@ -57,7 +57,13 @@ main {
 #content {
     background-image: url(img/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg);
     background-size: cover;
+
 }
+
+#content img {
+      width: 100%;
+}
+
 
 #podcastcontainer {
     display: grid;

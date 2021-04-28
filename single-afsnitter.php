@@ -51,6 +51,46 @@ get_header(); ?>
             <h3 class="streaminglinks">Du kan også lytte her: Spotify - Apple - Podimo - Google - Streaker</h3>
         </section>
 
+
+
+        <!--Grid til flere afsnit-->
+
+
+        <template>
+            <article class="afsnitter_section">
+                <div class="afsnitter_billede">
+                    <img src="" alt="" class="episode_filter">
+                </div>
+                <div class="afsnitter_indhold">
+                    <h3 class="afsnit_h3"></h3>
+                    <h4 class="afsnit_h4"></h4>
+                    <p class="afsnit_nr afsnit_tekst"></p>
+                    <!--<p class="varighed"></p>
+                        <p class="dato"></p>-->
+                    <a href="">Læs mere</a>
+
+                    <button class="btn btn-danger btn-lg loud_afspiller">Afspil</button>
+
+                </div>
+            </article>
+        </template>
+
+        <section id="afsnitter"></section>
+
+
+        <!--Grid til flere podcasts-->
+
+        <h3 class="podcast_grid">Du kan måske også lide...</h3>
+
+        <template id="podcast_template">
+            <article>
+                <img src="" alt="">
+                <h2 class="pod-title podcast_h2"></h2>
+            </article>
+        </template>
+
+        <section id="podcastcontainer"> </section>
+
     </main><!-- #main -->
 
 
