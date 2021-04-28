@@ -31,7 +31,7 @@ get_header(); ?>
         </article>
         <h3 class="streaminglinks">Du kan også lytte her: Spotify - Apple - Podimo - Google - Streaker</h3>
 
-        <section id="afsnitter">
+
             <template>
                 <article class="afsnitter_section">
                     <div class="afsnitter_billede">
@@ -51,7 +51,7 @@ get_header(); ?>
                 </article>
             </template>
 
-        </section>
+         <section id="afsnitter"></section>
 
 
         <h3 class="podcast_grid">Du kan måske også lide...</h3>
