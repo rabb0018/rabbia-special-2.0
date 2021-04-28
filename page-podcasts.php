@@ -39,7 +39,7 @@ do_action( 'onepress_page_before_content' );
 
 
                 <section id="primary" class="content-area"></section>
-                <nav id="filtrering"><button data-podcasts="alle" class="filter valgt">Alle</button></nav>
+                <nav id="filtrering"><button data-podcast="alle" class="filter valgt">Alle</button></nav>
 
                 <section id="podcastcontainer"></section>
 

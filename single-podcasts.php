@@ -20,12 +20,11 @@ get_header(); ?>
                     <img src="" alt="">
                 </div>
                 <div class="podcast_overskrift">
-                    <h2></h2>
+                    <h2 class="podcast_h2"></h2>
                     <br>
-                    <h3>Beskrivelse:</h3>
-                    <p class="pod_beskrivelse"></p>
+                    <p class="pod_beskrivelse podcast_tekst"></p>
                     <br>
-                    <p class="vaerter"></p>
+                    <p class="vaerter podcast_tekst"></p>
 
                 </div>
             </div>
@@ -39,9 +38,9 @@ get_header(); ?>
                         <img src="" alt="" class="episode_filter">
                     </div>
                     <div class="afsnitter_indhold">
-                        <h3></h3>
-                        <h4></h4>
-                        <p class="afsnit_nr"></p>
+                        <h3 class="afsnit_h3"></h3>
+                        <h4 class="afsnit_h4"></h4>
+                        <p class="afsnit_nr afsnit_tekst"></p>
                         <!--<p class="varighed"></p>
                         <p class="dato"></p>-->
                         <a href="">Læs mere</a>
@@ -55,14 +54,15 @@ get_header(); ?>
         </section>
 
 
-        <section id="podcastcontainer">
-            <template>
+
+            <template id="podcast_template">
                 <article>
                     <img src="" alt="">
-                    <h2 class="pod-title"></h2>
+                    <h2 class="pod-title podcast_h2"></h2>
                 </article>
             </template>
-        </section>
+
+       <section id="podcastcontainer"> </section>
 
     </main><!-- #main -->
 
@@ -147,7 +147,29 @@ get_header(); ?>
         function visPodcasts() {
             console.log("visPodcasts");
 
+            let temp = document.querySelector("#podcast_template");
+                let container = document.querySelector("#podcastcontainer");
+                /*container.innerHTML = "";*/
+                podcasts.forEach(podcast => {
+                  /*  if (filterPodcast == "alle" || podcast.categories.includes(parseInt(filterPodcast))) {*/
+
+                        let klon = temp.cloneNode(true).content;
+                        klon.querySelector("img").src = podcast.billede.guid;
+                        klon.querySelector("h2").innerHTML = podcast.title.rendered;
+
+                        klon.querySelector("article").addEventListener("click", () => {
+                            location.href = podcast.link;
+
+
+                        })
+                        container.appendChild(klon);
+                    /*}*/
+                })
+
+
         }
+
+
 
         getJson();
 

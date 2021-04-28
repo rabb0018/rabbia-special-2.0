@@ -76,7 +76,7 @@ img {
 
 #primary {
     padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .site-branding .has-logo-img {
@@ -112,10 +112,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 10px;
     margin-top: 5px;
-    margin-bottom: 0;
+    margin-bottom: 10px;;
 }
 
 h4 {
@@ -126,11 +126,13 @@ h4 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 10px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;;
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -140,6 +142,58 @@ a {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
+.podcast_h2  {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.podcast_h3 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 1.5rem;
+
+}
+
+.podcast_h4 {
+    margin: 0;
+    margin-left: 10px;
+
+}
+
+.podcast_tekst {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+
+.afsnit_h2 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.afsnit_h3 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.afsnit_h4 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.afsnit_tekst {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+
+
 
 .afsnitter_indhold {
     border: 2px solid black;
@@ -265,8 +319,8 @@ button:hover {
 .streaminglinks {
     text-align: center;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .btn-danger {

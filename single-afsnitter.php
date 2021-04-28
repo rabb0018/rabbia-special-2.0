@@ -20,19 +20,19 @@ get_header(); ?>
                         <img src="" alt="" class="afsnit_billede">
                     </div>
                     <div class="enkelt_afsnit_indhold">
-                        <h2></h2>
-                        <h3></h3>
+                        <h2 class="afsnit_h2"></h2>
+                        <h3 class="afsnit_h3"></h3>
                         <button class="btn btn-danger btn-lg loud_afspiller">Afspil</button>
                         <br>
-                        <h3>Beskrivelse</h3>
-                        <p class="beskrivelsestekst"></p>
-                        <p class="vaerter"></p>
-                        <p class="medvirkende"></p>
-                        <p class="redaktoer"></p>
+
+                        <p class="beskrivelsestekst afsnit_tekst"></p>
+                        <p class="vaerter afsnit_tekst"></p>
+                        <p class="medvirkende afsnit_tekst"></p>
+                        <p class="redaktoer afsnit_tekst"></p>
                         <br>
-                        <p class="afsnit_nr"></p>
-                        <p class="varighed"></p>
-                        <p class="dato"></p>
+                        <p class="afsnit_nr afsnit_tekst"></p>
+                        <p class="varighed afsnit_tekst"></p>
+                        <p class="dato afsnit_tekst"></p>
                     </div>
                 </div>
             </article>
