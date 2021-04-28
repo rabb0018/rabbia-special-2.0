@@ -21,7 +21,7 @@ get_header(); ?>
                     </div>
                     <div class="enkelt_afsnit_indhold">
                         <h2 class="afsnit_h2"></h2>
-                        <h3 class="afsnit_h3"></h3>
+                        <h3 class="afsnit_h3_2"></h3>
                         <button class="btn btn-danger btn-lg loud_afspiller">Afspil</button>
                         <br>
 
@@ -74,8 +74,8 @@ get_header(); ?>
             /*document.querySelector(".loud_afspiller").textContent = afsnit.loud_afspiller;*/
 
             document.querySelector(".afsnit_nr").textContent = afsnit.afsnit_nr;
-           /* document.querySelector(".varighed").textContent = "Tid: " + afsnit.varighed;
-            document.querySelector(".dato").textContent = "Dato: " + afsnit.dato;*/
+            /* document.querySelector(".varighed").textContent = "Tid: " + afsnit.varighed;
+             document.querySelector(".dato").textContent = "Dato: " + afsnit.dato;*/
             document.querySelector(".beskrivelsestekst").textContent = afsnit.beskrivelsestekst;
             document.querySelector(".vaerter").textContent = "Værter: " + afsnit.vaerter;
             document.querySelector(".medvirkende").textContent = "Medvirkende: " + afsnit.medvirkende;

@@ -120,8 +120,9 @@ h3 {
     font-size: 1.8rem;
     margin: 10px;
     margin-top: 5px;
-    margin-bottom: 10px;;
-      font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    ;
+    font-family: 'Roboto', sans-serif;
 }
 
 h4 {
@@ -129,14 +130,15 @@ h4 {
     margin: 10px;
     margin-top: 0;
     margin-bottom: 0;
-      font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     font-size: 1.3rem;
     margin: 10px;
     margin-top: 0;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
+    ;
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -151,7 +153,7 @@ a {
 }
 
 
-.podcast_h2  {
+.podcast_h2 {
     margin: 0;
     margin-left: 20px;
     margin-top: 60px;
@@ -189,6 +191,8 @@ a {
     margin: 0;
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    margin-left: 20px;
 }
 
 .afsnit_h3 {
@@ -200,10 +204,17 @@ a {
     margin-bottom: 25px;
 }
 
+.afsnit_h3_2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
 .afsnit_h4 {
     margin: 0;
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
 }
 
 .afsnit_tekst {
@@ -211,6 +222,7 @@ a {
     margin-left: 10px;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
 }
 
 
@@ -325,6 +337,7 @@ button:hover {
 #afsnit > article > div > div.enkelt_afsnit_indhold > button.btn.btn-danger.btn-lg.loud_afspiller {
     font-size: 0.8rem;
     margin: 10px;
+     margin-left: 20px;
 }
 
 
@@ -376,9 +389,11 @@ button:hover {
 }
 
 
-#ub-tabbed-content-6c08bce4-c862-4005-87f4-05568b6e30bb .wp-block-ub-tabbed-content-tab-title-wrap.active, #ub-tabbed-content-6c08bce4-c862-4005-87f4-05568b6e30bb .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active, #ub-tabbed-content-6c08bce4-c862-4005-87f4-05568b6e30bb .wp-block-ub-tabbed-content-accordion-toggle.active
-
-#ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8 .wp-block-ub-tabbed-content-tab-title-wrap.active, #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8 .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active, #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8 .wp-block-ub-tabbed-content-accordion-toggle.active {
+#ub-tabbed-content-6c08bce4-c862-4005-87f4-05568b6e30bb .wp-block-ub-tabbed-content-tab-title-wrap.active,
+#ub-tabbed-content-6c08bce4-c862-4005-87f4-05568b6e30bb .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active,
+#ub-tabbed-content-6c08bce4-c862-4005-87f4-05568b6e30bb .wp-block-ub-tabbed-content-accordion-toggle.active #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8 .wp-block-ub-tabbed-content-tab-title-wrap.active,
+#ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8 .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active,
+#ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8 .wp-block-ub-tabbed-content-accordion-toggle.active {
     border-color: #d80e3e;
 }
 
@@ -391,7 +406,11 @@ button:hover {
     font-size: 1rem;
 }*/
 
-body, button, input, select, textarea {
+body,
+button,
+input,
+select,
+textarea {
     font-size: 1.5rem;
 }
 
@@ -403,7 +422,8 @@ body, button, input, select, textarea {
     padding: 0 2%;
 }
 
-.wp-block-media-text__media img, .wp-block-media-text__media video {
+.wp-block-media-text__media img,
+.wp-block-media-text__media video {
     width: 80%;
 
 }
@@ -430,7 +450,7 @@ body, button, input, select, textarea {
 
 
 #ub-tabbed-content-1a582d8d-9a07-4a9a-9ddb-18f3a6a2f2d8-panel-2 > div {
-     margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
