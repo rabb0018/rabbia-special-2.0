@@ -8,14 +8,19 @@ main {
     margin: auto;
     /*margin-left: 20px;
     margin-right: 20px;*/
+    margin-bottom: 100px;
 
 }
 
 #masthead {
     background: #f5f1f0;
+    padding-top: 10px;
 
 }
 
+.onepress-menu a {
+    font-size: 17px;
+}
 
 #hero > div.container > div > a:nth-child(1) {
     margin-top: -270px;
@@ -56,8 +61,8 @@ main {
 
 #podcastcontainer {
     display: grid;
-    max-width: 1050px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    max-width: 1200px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     margin: auto;
     grid-gap: 2rem;
     margin-top: 20px;
@@ -89,7 +94,8 @@ img {
     margin: 10px;
     margin-top: 0;
     margin-bottom: 20px;
-      font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px
 }
 
 
@@ -338,6 +344,12 @@ button:hover {
     margin: auto;
     margin-top: 80px;
     margin-bottom: 100px;
+}
+
+.podcast_grid {
+    margin: 0;
+    margin-top: 160px;
+    margin-bottom: 40px;
 }
 
 .btn-danger {

@@ -26,13 +26,16 @@ get_header(); ?>
                         <br>
 
                         <p class="beskrivelsestekst afsnit_tekst"></p>
+
+                        <br>
                         <p class="vaerter afsnit_tekst"></p>
                         <p class="medvirkende afsnit_tekst"></p>
                         <p class="redaktoer afsnit_tekst"></p>
                         <br>
+
                         <p class="afsnit_nr afsnit_tekst"></p>
-                        <p class="varighed afsnit_tekst"></p>
-                        <p class="dato afsnit_tekst"></p>
+                        <!--<p class="varighed afsnit_tekst"></p>
+                        <p class="dato afsnit_tekst"></p>-->
                     </div>
                 </div>
             </article>
@@ -71,8 +74,8 @@ get_header(); ?>
             /*document.querySelector(".loud_afspiller").textContent = afsnit.loud_afspiller;*/
 
             document.querySelector(".afsnit_nr").textContent = afsnit.afsnit_nr;
-            document.querySelector(".varighed").textContent = "Tid: " + afsnit.varighed;
-            document.querySelector(".dato").textContent = "Dato: " + afsnit.dato;
+           /* document.querySelector(".varighed").textContent = "Tid: " + afsnit.varighed;
+            document.querySelector(".dato").textContent = "Dato: " + afsnit.dato;*/
             document.querySelector(".beskrivelsestekst").textContent = afsnit.beskrivelsestekst;
             document.querySelector(".vaerter").textContent = "Værter: " + afsnit.vaerter;
             document.querySelector(".medvirkende").textContent = "Medvirkende: " + afsnit.medvirkende;

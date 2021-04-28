@@ -54,15 +54,16 @@ get_header(); ?>
         </section>
 
 
+        <h3 class="podcast_grid">Du kan måske også lide...</h3>
 
-            <template id="podcast_template">
-                <article>
-                    <img src="" alt="">
-                    <h2 class="pod-title podcast_h2"></h2>
-                </article>
-            </template>
+        <template id="podcast_template">
+            <article>
+                <img src="" alt="">
+                <h2 class="pod-title podcast_h2"></h2>
+            </article>
+        </template>
 
-       <section id="podcastcontainer"> </section>
+        <section id="podcastcontainer"> </section>
 
     </main><!-- #main -->
 
@@ -148,23 +149,23 @@ get_header(); ?>
             console.log("visPodcasts");
 
             let temp = document.querySelector("#podcast_template");
-                let container = document.querySelector("#podcastcontainer");
-                /*container.innerHTML = "";*/
-                podcasts.forEach(podcast => {
-                  /*  if (filterPodcast == "alle" || podcast.categories.includes(parseInt(filterPodcast))) {*/
+            let container = document.querySelector("#podcastcontainer");
+            /*container.innerHTML = "";*/
+            podcasts.forEach(podcast => {
+                /*  if (filterPodcast == "alle" || podcast.categories.includes(parseInt(filterPodcast))) {*/
 
-                        let klon = temp.cloneNode(true).content;
-                        klon.querySelector("img").src = podcast.billede.guid;
-                        klon.querySelector("h2").innerHTML = podcast.title.rendered;
+                let klon = temp.cloneNode(true).content;
+                klon.querySelector("img").src = podcast.billede.guid;
+                klon.querySelector("h2").innerHTML = podcast.title.rendered;
 
-                        klon.querySelector("article").addEventListener("click", () => {
-                            location.href = podcast.link;
+                klon.querySelector("article").addEventListener("click", () => {
+                    location.href = podcast.link;
 
 
-                        })
-                        container.appendChild(klon);
-                    /*}*/
                 })
+                container.appendChild(klon);
+                /*}*/
+            })
 
 
         }
