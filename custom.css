@@ -474,3 +474,7 @@ h5 {
     padding: 2.375rem 0;
 }
 
+.page-header.page--cover:before {
+    background: none;
+        /*background: rgba(0, 0, 0, 0.1);*/
+}
