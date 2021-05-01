@@ -31,7 +31,7 @@ do_action( 'onepress_page_before_content' );
         <h3 class="podcast_grid">Nyeste Podcasts</h3>
 
         <template id="podcast_template">
-            <article>
+            <article class="cursor">
                 <img src="" alt="">
                 <h2 class="pod-title podcast_h2"></h2>
             </article>
@@ -43,7 +43,7 @@ do_action( 'onepress_page_before_content' );
 
        <h3 class="podcast_grid">Søg efter kategori</h3>
         <template>
-            <article>
+            <article class="cursor">
                 <img src="" alt="">
                 <h2 class="pod-title"></h2>
             </article>

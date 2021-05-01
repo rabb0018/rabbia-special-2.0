@@ -58,6 +58,10 @@ main {
     width: 100%;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 #podcastcontainer {
     display: grid;
     max-width: 1200px;

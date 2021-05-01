@@ -57,7 +57,7 @@ get_header(); ?>
 
 
         <template id="afsnitter_template">
-            <article class="afsnitter_section">
+            <article class="afsnitter_section cursor">
                 <div class="afsnitter_billede">
                     <img src="" alt="" class="episode_filter">
                 </div>
@@ -83,7 +83,7 @@ get_header(); ?>
         <h3 class="podcast_grid">Du kan måske også lide...</h3>
 
         <template id="podcast_template">
-            <article>
+            <article class="cursor">
                 <img src="" alt="">
                 <h2 class="pod-title podcast_h2"></h2>
             </article>
