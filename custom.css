@@ -67,6 +67,15 @@ main {
     margin-top: 20px;
 }
 
+#podcastcontainernye {
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: auto;
+    grid-gap: 2rem;
+    margin-top: 20px;
+}
+
 img {
     width: 100%;
     /* height: 100%;*/
@@ -79,7 +88,7 @@ img {
 
 #primary {
     padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 .site-branding .has-logo-img {
