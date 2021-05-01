@@ -536,8 +536,9 @@ h5 {
 
     #podcastcontainer {
         display: grid;
-        max-width: 680px;
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        max-width: 1200px;
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        margin: auto;
     }
 
 
@@ -614,12 +615,23 @@ h5 {
     .afsnitter_section {
         display: grid;
         grid-template-columns: 1fr 3fr;
+        max-width: 680px;
+        margin: auto;
     }
 
     .btn-danger {
         margin-left: 290px;
 
     }
+
+    #afsnitter {
+    display: grid;
+    max-width: 680px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    margin: auto;
+
+}
+
 
     .afsnit_h2 {
         margin-top: 15px;
