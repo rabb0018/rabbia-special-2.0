@@ -14,7 +14,7 @@ get_header(); ?>
 
 
         <h1 class="entry-title">Podcasts</h1>
-        <article class="cursor">
+        <article>
             <div class="podcast_showcase">
                 <div class="podcast_billede">
                     <img src="" alt="">
