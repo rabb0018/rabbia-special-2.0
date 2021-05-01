@@ -493,16 +493,17 @@ h5 {
     /*forside knapper*/
 
     #hero > div.container > div > a:nth-child(1) {
-        margin-top: -115px;
-        font-size: 1rem;
-        margin-left: 25px;
+        margin-top: -70px;
+        font-size: 1.5rem;
+        margin-left: 0;
+        margin-right: 400px;
     }
 
 
     #hero > div.container > div > a:nth-child(2) {
-        margin-left: 213px;
-        margin-top: 20px;
-        font-size: 1rem;
+        margin-left: 400px;
+        margin-top: -10px;
+        font-size: 1.5rem;
     }
 
     /*footer*/
