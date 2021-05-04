@@ -29,7 +29,11 @@ get_header(); ?>
                 </div>
             </div>
         </article>
-        <h3 class="streaminglinks">Du kan også lytte her: Spotify - Apple - Podimo - Google - Streaker</h3>
+        <h3 class="streaminglinks">Du kan også lytte her:</h3>
+        <img src="img/spotify.png" alt="spotify icon">
+        <img src="img/apple.png" alt="apple icon">
+        <img src="img/podimo.png" alt="podimo icon">
+        <img src="img/google.png" alt="google icon">
 
 
             <template>
