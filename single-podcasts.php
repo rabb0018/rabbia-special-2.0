@@ -29,33 +29,36 @@ get_header(); ?>
                 </div>
             </div>
         </article>
+
         <h3 class="streaminglinks">Du kan også lytte her:</h3>
-        <img src="img/spotify.png" alt="spotify icon">
-        <img src="img/apple.png" alt="apple icon">
-        <img src="img/podimo.png" alt="podimo icon">
-        <img src="img/google.png" alt="google icon">
 
+        <!--<div>
+            <img src="img/spotify.png" alt="spotify icon" width:"25px" height:"25px">
+            <img src="img/apple.png" alt="apple icon">
+            <img src="img/podimo.png" alt="podimo icon">
+            <img src="img/google.png" alt="google icon">
+        </div>-->
 
-            <template>
-                <article class="afsnitter_section cursor">
-                    <div class="afsnitter_billede">
-                        <img src="" alt="" class="episode_filter">
-                    </div>
-                    <div class="afsnitter_indhold">
-                        <h3 class="afsnit_h3"></h3>
-                        <h4 class="afsnit_h4"></h4>
-                        <p class="afsnit_nr afsnit_tekst"></p>
-                        <!--<p class="varighed"></p>
+        <template>
+            <article class="afsnitter_section cursor">
+                <div class="afsnitter_billede">
+                    <img src="" alt="" class="episode_filter">
+                </div>
+                <div class="afsnitter_indhold">
+                    <h3 class="afsnit_h3"></h3>
+                    <h4 class="afsnit_h4"></h4>
+                    <p class="afsnit_nr afsnit_tekst"></p>
+                    <!--<p class="varighed"></p>
                         <p class="dato"></p>-->
-                        <a href="">Læs mere</a>
+                    <a href="">Læs mere</a>
 
-                        <button class="btn btn-danger btn-lg loud_afspiller">Afspil</button>
+                    <button class="btn btn-danger btn-lg loud_afspiller">Afspil</button>
 
-                    </div>
-                </article>
-            </template>
+                </div>
+            </article>
+        </template>
 
-         <section id="afsnitter"></section>
+        <section id="afsnitter"></section>
 
 
         <h3 class="podcast_h2_pod">Du kan måske også lide...</h3>
