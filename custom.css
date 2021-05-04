@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 h1:not(.site-title):before,
 h2:before {
     content: none;
@@ -83,7 +88,7 @@ main {
 img {
     width: 100%;
     /* height: 100%;*/
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 .custom-logo {
@@ -239,6 +244,7 @@ a {
 #filtrering {
     margin: auto;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #site-navigation {
@@ -411,6 +417,10 @@ button:hover {
     border-color: #d80e3e;
 }
 
+#ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-tab-title-wrap.active, #ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active, #ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-accordion-toggle.active {
+    border-color: #d80e3e !important;
+}
+
 body,
 button,
 input,
@@ -493,14 +503,28 @@ h5 {
 }
 
 
+#ub-tabbed-content-3d5d4584-1cdc-4fb6-9f9b-55ff380017d9 .wp-block-ub-tabbed-content-tab-title-wrap.active,
+#ub-tabbed-content-3d5d4584-1cdc-4fb6-9f9b-55ff380017d9 .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active,
+#ub-tabbed-content-3d5d4584-1cdc-4fb6-9f9b-55ff380017d9 .wp-block-ub-tabbed-content-accordion-toggle.active {
+    background-color: #f5f1f0;
+    border-color: #d80e3e;
+    color: #d80e3e;
+}
 
+.onepress-menu ul {
+    position: absolute;
+    display: none;
+    top: 70%;
+    left: 0px;
+    z-index: 99;
+}
 
 /*******************************************Ipad Media*************************************************************************************/
 
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
 
     /*forside knapper*/
@@ -549,16 +573,25 @@ h5 {
 
     #podcastcontainer {
         display: grid;
-        max-width: 1200px;
-        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        max-width: 680px;
+        grid-template-columns: repeat(auto-fill, minmax(206px, 1fr));
         margin: auto;
     }
 
 
     .pod-title {
-        font-size: 1rem;
+        font-size: 1.4rem;
 
         margin-top: 10px;
+    }
+
+    #podcastcontainernye {
+        display: grid;
+        max-width: 1200px;
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        margin: auto;
+        grid-gap: 2rem;
+        margin-top: 20px;
     }
 
 
@@ -589,13 +622,25 @@ h5 {
 
     .podcast_h2 {
         margin: 0;
+        /*margin-left: 15px;*/
+        margin-top: 15px;
+    }
+
+    .podcast_h2_pod {
+        margin: 0;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .podcast_grid_pod {
+        margin: 0;
         margin-left: 15px;
         margin-top: 15px;
     }
 
     .podcast_tekst {
         margin: 0;
-        font-size: 0.78rem;
+        font-size: 1rem;
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -611,7 +656,7 @@ h5 {
         margin: 0;
         margin-top: 100px;
         margin-bottom: 40px;
-        margin-left: 40px;
+        /*margin-left: 40px;*/
     }
 
 
@@ -638,12 +683,12 @@ h5 {
     }
 
     #afsnitter {
-    display: grid;
-    max-width: 680px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    margin: auto;
+        display: grid;
+        max-width: 680px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        margin: auto;
 
-}
+    }
 
 
     .afsnit_h2 {
@@ -655,6 +700,30 @@ h5 {
         margin-top: 15px;
         margin-bottom: 0px;
         margin-left: 15px;
+    }
+
+    .afsnit_tekst {
+        margin: 0;
+        margin-left: 10px;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .grid_for_info {
+        display: block;
+
+    }
+
+    .varighed {
+        text-align: left;
+
+    }
+
+    .dato {
+        text-align: left;
+
     }
 
 
@@ -671,11 +740,90 @@ h5 {
 
     }
 
+    /*sendeplan*/
+    .wp-block-ub-tabbed-content-holder.wp-block-ub-tabbed-content-horizontal-holder-tablet > .wp-block-ub-tabbed-content-tabs-content {
+        width: 91%;
+        margin: auto;
+    }
+
 }
 
 
 /***************************************************Mobil media*****************************************************************************/
 
 
+@media (max-width: 376px) {
+
+    /*forside*/
 
 
+    /*podcastsss*/
+
+    #content {
+        background-image: url(img/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg);
+        background-size: contain;
+    }
+
+    /* #podcastcontainernye {
+        display: grid;
+        max-width: 1200px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        margin: auto;
+        grid-gap: 2rem;
+        margin-top: 20px;
+    }
+
+    #podcastcontainer {
+        display: grid;
+        max-width: 1200px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        margin: auto;
+        grid-gap: 2rem;
+        margin-top: 20px;
+    }*/
+
+    #filtrering {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+
+    /*enkelt podcast*/
+
+    .afsnitter_section {
+        display: block;
+        max-width: 295px;
+        margin: auto;
+    }
+
+    .btn-danger {
+        margin-left: 180px;
+        margin-bottom: 10px;
+    }
+
+    .afsnit_grid {
+        display: block;
+        /* grid-template-columns: 1fr 2fr; */
+        margin-top: 15px;
+        max-width: 295px;
+        margin: auto;
+    }
+
+    .afsnit_h2 {
+        margin-left: 20px;
+    }
+
+    .afsnit_h3_2 {
+        margin-left: 20px;
+    }
+
+    /*sendeplan*/
+
+    .wp-block-ub-tabbed-content-holder.wp-block-ub-tabbed-content-horizontal-holder-tablet > .wp-block-ub-tabbed-content-tabs-content {
+        width: 80%;
+        margin: auto;
+        margin-left: -5px;
+        text-align: center;
+    }
+}

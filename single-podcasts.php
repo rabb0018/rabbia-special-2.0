@@ -20,7 +20,7 @@ get_header(); ?>
                     <img src="" alt="">
                 </div>
                 <div class="podcast_overskrift">
-                    <h2 class="podcast_h2"></h2>
+                    <h2 class="podcast_h2_pod"></h2>
                     <br>
                     <p class="pod_beskrivelse podcast_tekst"></p>
                     <br>
@@ -54,7 +54,7 @@ get_header(); ?>
          <section id="afsnitter"></section>
 
 
-        <h3 class="podcast_grid">Du kan måske også lide...</h3>
+        <h3 class="podcast_h2_pod">Du kan måske også lide...</h3>
 
         <template id="podcast_template">
             <article class="cursor">

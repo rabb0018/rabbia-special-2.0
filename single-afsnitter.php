@@ -80,7 +80,7 @@ get_header(); ?>
 
         <!--Grid til flere podcasts-->
 
-        <h3 class="podcast_grid">Du kan måske også lide...</h3>
+        <h3 class="podcast_h2_grid">Du kan måske også lide...</h3>
 
         <template id="podcast_template">
             <article class="cursor">
