@@ -253,6 +253,7 @@ a {
 
 #main > h1 {
     margin-top: 40px;
+    font-weight: 800;
 }
 
 .podcast_showcase {
@@ -417,7 +418,9 @@ button:hover {
     border-color: #d80e3e;
 }
 
-#ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-tab-title-wrap.active, #ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active, #ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-accordion-toggle.active {
+#ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-tab-title-wrap.active,
+#ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-tab-title-vertical-wrap.active,
+#ub-tabbed-content-8df74d2e-dcec-400e-bca2-a32069f6452f .wp-block-ub-tabbed-content-accordion-toggle.active {
     border-color: #d80e3e !important;
 }
 
@@ -518,6 +521,12 @@ h5 {
     left: 0px;
     z-index: 99;
 }
+
+#post-253 > div > div:nth-child(1) > div > figure > img {
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
 
 /*******************************************Ipad Media*************************************************************************************/
 

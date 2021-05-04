@@ -32,12 +32,12 @@ get_header(); ?>
 
         <h3 class="streaminglinks">Du kan også lytte her:</h3>
 
-        <!--<div>
-            <img src="img/spotify.png" alt="spotify icon" width:"25px" height:"25px">
+        <div>
+            <img src="img/spotify.png" alt="spotify icon">
             <img src="img/apple.png" alt="apple icon">
             <img src="img/podimo.png" alt="podimo icon">
             <img src="img/google.png" alt="google icon">
-        </div>-->
+        </div>
 
         <template>
             <article class="afsnitter_section cursor">
