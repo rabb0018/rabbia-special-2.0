@@ -105,7 +105,7 @@ img {
 
 #primary {
     padding-bottom: 40px;
-    padding-top: 0px;
+    padding-top: 40px;
 }
 
 .site-branding .has-logo-img {
@@ -278,7 +278,7 @@ a {
 .podcast_overskrift {
     grid-column: 2/3;
     /*background: #d9d3d3;*/
-    border: 2px solid black;
+/*    border: 2px solid black;*/
     background: #f5f1f0;
 }
 
@@ -373,7 +373,7 @@ button:hover {
 
 .enkelt_afsnit_indhold {
     grid-column: 2/3;
-    border: 2px solid black;
+  /*  border: 2px solid black;*/
     background: #f5f1f0;
 }
 
@@ -557,6 +557,10 @@ h5 {
 
 
     /*forside knapper*/
+
+    #menu-item-439 > a > img {
+        width: 30px;
+    }
 
     #hero > div.container > div > a:nth-child(1) {
         margin-top: -70px;
@@ -789,6 +793,26 @@ h5 {
 
     }
 
+    #post-43 > div > div > div:nth-child(1) > div > div:nth-child(1) > figure > img {
+        width: 49px;
+        margin: auto;
+    }
+
+    #post-43 > div > div > div:nth-child(1) > div > div:nth-child(2) > figure > img {
+        width: 49px;
+        margin: auto;
+    }
+
+    #post-43 > div > div > div:nth-child(1) > div > div:nth-child(3) > figure > img {
+        width: 49px;
+        margin: auto;
+    }
+
+    #post-43 > div > div > div:nth-child(1) > div > div:nth-child(4) > figure > img {
+        width: 49px;
+        margin: auto;
+    }
+
     /*sendeplan*/
     .wp-block-ub-tabbed-content-holder.wp-block-ub-tabbed-content-horizontal-holder-tablet > .wp-block-ub-tabbed-content-tabs-content {
         width: 91%;
@@ -917,7 +941,7 @@ h5 {
 
     .afsnitter_section {
         display: block;
-        max-width: 295px;
+        max-width: 330px;
         margin: auto;
     }
 
@@ -936,7 +960,7 @@ h5 {
         display: block;
         /* grid-template-columns: 1fr 2fr; */
         margin-top: 15px;
-        max-width: 295px;
+        max-width: 330px;
         margin: auto;
     }
 
