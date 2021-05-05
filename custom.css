@@ -548,6 +548,15 @@ h5 {
     margin-top: 80px;
 }
 
+.wp-block-search .wp-block-search__button {
+    background: #d80e3e;
+    border: 1px solid #ccc;
+    padding: .375em .625em;
+    color: #32373c;
+    margin-left: .625em;
+    word-break: normal;
+}
+
 /*******************************************Ipad Media*************************************************************************************/
 
 
