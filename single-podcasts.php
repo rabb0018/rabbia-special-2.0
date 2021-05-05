@@ -30,14 +30,19 @@ get_header(); ?>
             </div>
         </article>
 
-        <h3 class="streaminglinks">Du kan også lytte her:</h3>
 
-        <div>
-            <img src="img/spotify.png" alt="spotify icon">
-            <img src="img/apple.png" alt="apple icon">
-            <img src="img/podimo.png" alt="podimo icon">
-            <img src="img/google.png" alt="google icon">
-        </div>
+        <div id="container_icons">
+             <h3 class="streaminglinks">Du kan også lytte her: <img src="https://rys.dk/kea/09_cms/radio_loud/wp-content/uploads/2021/05/spotify.png" alt="spotify icon" class="streaming_icons">
+            <img src="https://rys.dk/kea/09_cms/radio_loud/wp-content/uploads/2021/05/Apple_podcast-1.png" alt="apple icon" class="streaming_icons">
+            <img src="https://rys.dk/kea/09_cms/radio_loud/wp-content/uploads/2021/05/podimo.png" alt="podimo icon" class="streaming_icons">
+            <img src="https://rys.dk/kea/09_cms/radio_loud/wp-content/uploads/2021/05/google-1.png" alt="google icon" class="streaming_icons"></h3>
+
+
+
+
+
+   </div>
+
 
         <template>
             <article class="afsnitter_section cursor">
