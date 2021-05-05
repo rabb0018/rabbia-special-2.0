@@ -41,7 +41,7 @@ do_action( 'onepress_page_before_content' );
 
 
 
-       <h3 class="podcast_grid">Søg efter kategori</h3>
+      <!-- <h3 class="podcast_grid">Søg efter kategori</h3>-->
         <template>
             <article class="cursor">
                 <img src="" alt="">
@@ -70,7 +70,7 @@ do_action( 'onepress_page_before_content' );
             const catUrl = "https://rys.dk/kea/09_cms/radio_loud/wp-json/wp/v2/categories";
 
 
-            const podcastsnyeUrl = "https://rys.dk/kea/09_cms/radio_loud/wp-json/wp/v2/podcasts?per_page=100";
+
 
             async function getJson() {
                 const data = await fetch(dbUrl);
@@ -81,11 +81,7 @@ do_action( 'onepress_page_before_content' );
                 opretKnapper();
 
 
-                const data3 = await fetch(podcastsnyeUrl);
-                podcasts = await data3.json();
-                console.log("podcasts");
 
-                visPodcastsNye();
 
 
             }
@@ -147,30 +143,6 @@ do_action( 'onepress_page_before_content' );
             }
 
 
-            function visPodcastsNye() {
-                console.log("visPodcasts");
-
-                let temp = document.querySelector("#podcast_template");
-                let container = document.querySelector("#podcastcontainernye");
-                /*container.innerHTML = "";*/
-                podcasts.forEach(podcast => {
-                    /*  if (filterPodcast == "alle" || podcast.categories.includes(parseInt(filterPodcast))) {*/
-
-                    let klon = temp.cloneNode(true).content;
-                    klon.querySelector("img").src = podcast.billede.guid;
-                    klon.querySelector("h2").innerHTML = podcast.title.rendered;
-
-                    klon.querySelector("article").addEventListener("click", () => {
-                        location.href = podcast.link;
-
-
-                    })
-                    container.appendChild(klon);
-                    /*}*/
-                })
-
-
-            }
 
             getJson();
 
