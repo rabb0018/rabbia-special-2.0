@@ -28,7 +28,7 @@ do_action( 'onepress_page_before_content' );
     <div id="content-inside" class="container <?php echo esc_attr( $layout ); ?>">
 
 
-        <h3 class="podcast_grid">Nyeste Podcasts</h3>
+        <!--<h3 class="podcast_grid">Nyeste Podcasts</h3>
 
         <template id="podcast_template">
             <article class="cursor">
@@ -37,7 +37,7 @@ do_action( 'onepress_page_before_content' );
             </article>
         </template>
 
-        <section id="podcastcontainernye"> </section>
+        <section id="podcastcontainernye"> </section>-->
 
 
 
