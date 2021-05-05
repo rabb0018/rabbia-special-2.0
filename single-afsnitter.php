@@ -48,10 +48,20 @@ get_header(); ?>
                     </div>
                 </div>
             </article>
-            <h3 class="streaminglinks">Du kan også lytte her: Spotify - Apple - Podimo - Google - Streaker</h3>
         </section>
 
+        <div id="container_icons">
+            <h3 class="streaminglinks">Du kan også lytte her: <img src="https://rys.dk/kea/09_cms/radio_loud/wp-content/uploads/2021/05/spotify.png" alt="spotify icon" class="streaming_icons">
+                <img src="https://rys.dk/kea/09_cms/radio_loud/wp-content/uploads/2021/05/Apple_podcast-1.png" alt="apple icon" class="streaming_icons">
+                <img src="https://rys.dk/kea/09_cms/radio_loud/wp-content/uploads/2021/05/podimo.png" alt="podimo icon" class="streaming_icons">
+                <img src="https://rys.dk/kea/09_cms/radio_loud/wp-content/uploads/2021/05/google-1.png" alt="google icon" class="streaming_icons">
+            </h3>
 
+
+
+
+
+        </div>
 
         <!--Grid til flere afsnitter-->
 
@@ -80,7 +90,7 @@ get_header(); ?>
 
         <!--Grid til flere podcasts-->
 
-        <h3 class="podcast_h2_grid">Du kan måske også lide...</h3>
+        <h3 class="podcast_h3_grid">Du kan måske også lide...</h3>
 
         <template id="podcast_template">
             <article class="cursor">

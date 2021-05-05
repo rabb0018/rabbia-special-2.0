@@ -66,7 +66,7 @@ get_header(); ?>
         <section id="afsnitter"></section>
 
 
-        <h3 class="podcast_h2_pod">Du kan måske også lide...</h3>
+        <h3 class="podcast_h3_grid">Du kan måske også lide...</h3>
 
         <template id="podcast_template">
             <article class="cursor">
